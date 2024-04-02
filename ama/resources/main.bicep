@@ -49,6 +49,8 @@ resource appFunction 'Microsoft.Web/sites@2022-03-01' = {
       acrUseManagedIdentityCreds: false
       http20Enabled: true
       linuxFxVersion: 'DOCKER|${dockerImageFullName}'
+      minTlsVersion: '1.2'
+      ftpsState: 'FtpsOnly'
       appSettings: [
         {
           name: 'DOCKER_REGISTRY_SERVER_URL'
