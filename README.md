@@ -54,7 +54,7 @@ The solution is composed of the following components:
 - Azure CLI
 - Docker
 - Appliance Resource Provider Object Id (it can be retrieve searching for "Appliance Resource Provider in the Azure Portal, in the Active Directory section)
-  - if this is not available in your subscription, you can adde it by adding the resource provider `Microsoft.Solutions` to your subscription
+  - if this is not available in your subscription, you can add it by adding the resource provider `Microsoft.Solutions` to your subscription
 
 > If you are using WSL on Windows, make sure the _zip_ command is available. You can install it by issuing this command-line _sudo apt install zip_.
 
